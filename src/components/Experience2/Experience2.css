@@ -1,0 +1,40 @@
+.experience-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .experience-divider {
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    margin: 0 20px;
+  }
+  
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience {
+    margin-bottom: 20px; /* Add spacing after each div */
+  }
+  
+  .experience:nth-child(odd) {
+    margin-bottom: 20vw;
+  }
+  
+  .experience:nth-child(even) {
+    /* Apply styles for experiences on the right side (2, 4, 6) */
+  }
+  
+  .experience-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .experience-description {
+    font-size: 14px;
+  }
+  
